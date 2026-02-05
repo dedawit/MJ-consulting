@@ -1,0 +1,961 @@
+body,
+.preloader {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #121212 !important; /* Dark background */
+  color: #e0e0e0 !important; /* Light text color */
+  font-family: Arial, sans-serif !important; /* Optional font for readability */
+}
+
+.mobile-header,
+.mobile-sidebar {
+  background-color: #121212 !important; /* Dark background */
+  color: #e0e0e0 !important; /* Light text color */
+  font-family: Arial, sans-serif !important; /* Optional font for readability */
+}
+
+/* Darker header with a subtle difference from body */
+.header-top,
+.header-area,
+.header-elements {
+  background-color: #1a1a1a !important; /* Slightly lighter dark */
+  color: #f5f5f5 !important; /* Light text for contrast */
+  padding: 0px 20px !important;
+  border-bottom: 1px solid #333333 !important; /* Subtle border for separation */
+}
+
+/* Additional styling for a sticky header effect */
+.header-sticky {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) !important; /* Shadow for depth */
+}
+/* Basic styling for the main menu */
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* Space between menu items */
+}
+
+.main-menu ul li a {
+  position: relative;
+  color: white !important;
+}
+
+/* Lighter dark background for .slider-section-area.sp5 using dark gray */
+.slider-section-area.sp5 {
+  background-color: rgba(
+    72,
+    64,
+    64,
+    0.5
+  ); /* Dark gray with semi-transparency */
+}
+
+.sldier-head p {
+  color: #007bff !important;
+}
+
+.service-header-area h2,
+.service2-header h2,
+.case-header-area h2 {
+  color: white;
+}
+
+.service-header-area p,
+.service2-header p,
+.case-header-area p {
+  color: #4fa3f7 !important; /* Soft, vibrant blue that complements light gray */
+}
+
+.service-boxarea a {
+  color: #4fa3f7 !important; /* Soft, vibrant blue that complements light gray */
+}
+.service-boxarea p {
+  color: white !important;
+}
+
+.content-area p {
+  color: #fff !important; /* Light cyan blue that stands out on black and white */
+}
+
+.contact-info-area h3,
+.contact-boxarea h3 {
+  color: #007bff !important;
+}
+
+.contact-boxarea {
+  background-color: black !important;
+}
+
+.contact-boxarea p {
+  color: white !important;
+}
+
+.country-area.nice-select6 {
+  background-color: black;
+}
+
+.country-area.nice-select6 option {
+  background-color: black !important;
+}
+
+.text-anime-style-3 {
+  color: white !important;
+}
+
+.footer-logo-area1 h3,
+.footer-logo-area2 h3 {
+  color: #007bff !important;
+}
+
+.copyright-area p,
+.last-items a {
+  color: #007bff !important;
+}
+
+.paginacontainer .progress-circle path {
+  stroke: blue !important; /* Make the circle path blue */
+  stroke-width: 4;
+  fill: none;
+}
+
+.paginacontainer .progress-circle {
+  stroke: blue !important; /* Ensure the arrow is blue */
+}
+
+/* Change arrow color in ::after and ::before pseudo-elements */
+.progress-wrap::after,
+.progress-wrap::before {
+  color: blue !important; /* Change to blue */
+}
+
+/* Menu items */
+.menu-item {
+  color: white !important;
+}
+
+/* Contact Info Section */
+.contact-info h2,
+.we-are-located h2,
+.social-links h2,
+.single-footer h3,
+.footer-logo-area2 img {
+  color: blue !important; /* Title color set to blue */
+}
+
+/* Contact Info, We Are Located, and Social Links text */
+.contact-info p,
+.we-are-located p,
+.social-links p,
+.mobile-nav a {
+  color: white !important;
+}
+
+.menu-close i,
+.mobile-nav-icon i {
+  color: white !important;
+}
+
+.footer-logo-area2 ul li a img {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(100%) saturate(1000%)
+    hue-rotate(190deg) brightness(100%) contrast(100%);
+}
+
+.single-footer .social-links-mobile-menu ul li a {
+  color: #449ff9 !important; /* Light blue color */
+}
+
+.about-header-area {
+  background-color: #333333 !important; /* Light black background */
+  background-image: url(assets/img/bg/inner-header.png) !important; /* Ensures background image is applied */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.about-inner-header h1 {
+  color: white !important; /* Makes "About Us" white */
+}
+
+.about-inner-header a {
+  color: blue !important; /* Makes "Home" blue */
+  font-size: 18px !important; /* Optional: Adjust size if needed */
+  text-decoration: none !important;
+}
+.about-content-area {
+  background-color: #1a1a1a !important; /* Slightly lighter black */
+  padding: 30px !important; /* Optional: Adds some padding for better readability */
+  border-radius: 5%;
+}
+
+.about-content-area h2 {
+  color: white !important; /* Makes the title white */
+  font-size: 24px !important; /* Optional: Adjust font size if needed */
+}
+
+.about1-section-area {
+  background-color: black !important; /* Dark background */
+}
+
+.works-header-area h5 {
+  color: blue !important; /* Makes the title blue */
+}
+
+.heading2 h5::after {
+  background: blue !important;
+}
+
+.works-header-area h2 {
+  color: white;
+}
+
+.works-content-box {
+  background-color: #0e0e0e !important; /* Dark background */
+}
+
+.works-content-box .content a {
+  color: blue !important; /* Makes the title blue */
+}
+
+.blog-top-boxarea,
+.blog1-scetion-area {
+  background-color: #292727 !important;
+}
+
+.blog-top-boxarea h2 {
+  color: #fff !important;
+}
+
+.tags-area img {
+  filter: brightness(0) invert(1) grayscale(100%);
+}
+
+.tags-area a {
+  color: blue !important;
+}
+
+.content-area-small {
+  background-color: black !important;
+}
+
+.readmore {
+  color: white !important;
+  transition: color 0.3s ease-in-out; /* Animates color change */
+}
+
+.white-card {
+  color: white !important;
+  transition: color 0.3s ease-in-out; /* Animates color change */
+}
+
+/* Animation for hover or interaction */
+.readmore:hover {
+  color: rgb(97, 200, 255) !important; /* Example: Change color on hover */
+}
+
+.white-card:hover {
+  color: rgb(59, 157, 255) !important; /* Example: Change color on hover */
+}
+
+.table-bordered th,
+.section-title {
+  color: blue !important;
+}
+
+.table-bordered td {
+  color: white !important;
+}
+
+.service-card {
+  background-color: #000000 !important;
+}
+
+.service-card li {
+  color: #515151 !important;
+}
+
+.terms,
+.phone-number {
+  background-color: #000000 !important;
+}
+
+.terms .card-title {
+  color: white !important;
+}
+
+.terms .card-text {
+  color: blue !important;
+}
+
+.my-agreement h1,
+.my-agreement .service-card li,
+.my-conditions h3 {
+  color: blue !important;
+}
+
+.my-agreement .service-card h3 {
+  color: white !important;
+}
+
+.package-title {
+  color: white !important;
+  margin-bottom: 20px !important;
+}
+
+.package-lists .card-body {
+  background-color: #000000 !important;
+}
+.package-lists .card-body .card-title {
+  color: white !important;
+}
+.package-lists .card-body li {
+  color: blue !important;
+}
+
+.phone-number,
+.number-address-area,
+.number-address-area2 {
+  background-color: #121212 !important; /* Dark background */
+}
+
+.phone-number .content p {
+  color: blue !important;
+}
+
+.phone-number .content a {
+  color: white !important;
+  transition: color 0.3s ease-in-out; /* Allows color change animation */
+}
+
+.phone-number .content a:hover {
+  color: lightblue !important; /* Changes color to light blue on hover */
+}
+
+.contact-form-area {
+  background-color: #000 !important;
+}
+.contact-form-area h4 {
+  color: white !important;
+}
+
+.site-logo,
+.footer-logo-area img {
+  max-width: 80px; /* Adjust the max width as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+.mobile-logo,
+.logos {
+  max-width: 45px; /* Adjust the max width as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Button Styling */
+.header-btn1 {
+  display: inline-block;
+  background-color: #007bff !important; /* Electric Blue */
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  transition: background-color 0.3s ease, transform 0.3s ease !important; /* Smooth animation */
+}
+
+.header-btn1 span i {
+  margin-left: 8px !important; /* Space between text and icon */
+  transition: transform 0.3s ease !important; /* Icon transition */
+}
+
+/* Subtle Hover Effect */
+.header-btn1:hover {
+  background-color: #006fd1 !important; /* Slightly darker blue on hover */
+  transform: translateY(-2px) !important; /* Button moves up slightly */
+}
+
+.header-btn1:hover span i {
+  transform: translateX(3px) !important; /* Icon slides slightly to the right */
+}
+
+.contact-info-mine span,
+.contact-info-mine a {
+  color: white !important;
+  background: none !important;
+}
+
+.slider-images-area {
+  display: flex !important;
+  gap: 10px !important; /* Optional: add some space between items */
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slider img {
+  width: 100px auto; /* Set fixed width */
+  height: 100px !important; /* Set fixed height */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  overflow: hidden !important; /* Ensures image stays within bounds */
+}
+
+.slider img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important; /* Maintains image aspect ratio */
+}
+/* Container styling for Flexbox layout */
+.my-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+}
+
+/* Card styling */
+.unique-package-card {
+  background-color: #1f1f1f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  width: 100%; /* Full width on smaller screens */
+  max-width: 300px; /* Fixed width to ensure a single row on larger screens */
+}
+
+.unique-package-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Card body styling */
+.unique-card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.unique-package-card input[type="radio"] {
+  display: none;
+}
+
+.unique-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00bfff;
+  margin-bottom: 10px;
+}
+
+.unique-card-price {
+  font-size: 1rem;
+  color: #d3d3d3;
+}
+
+/* Elite Package styling */
+.unique-elite-package {
+  background-color: #2a2a2a;
+  border: 2px solid #e5e5e5;
+  height: 250px;
+  animation: unique-glow 1.5s infinite alternate;
+}
+
+@keyframes unique-glow {
+  from {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.7);
+  }
+  to {
+    box-shadow: 0 0 25px rgba(0, 191, 255, 1);
+  }
+}
+
+.unique-elite-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffd700;
+  margin-top: 20px;
+}
+
+/* Responsive behavior */
+@media (min-width: 768px) {
+  .unique-package-card {
+    width: 30%; /* 3 cards per row on medium and larger screens */
+  }
+}
+
+.hero1-section-area {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Styling for the logo and single-line text */
+/* Logo image styling */
+.logo {
+  display: block !important;
+  /* visibility: hidden; */
+  width: 20rem !important; /* Larger size for the logo */
+  height: auto !important;
+  position: relative !important; /* Ensure the logo is positioned correctly */
+  z-index: 3 !important; /* Ensure the logo is above the background video */
+  -webkit-text-stroke: 2px #add8e6 !important; /* Light blue stroke for prominence */
+  text-shadow: 0 0 10px rgba(173, 216, 230, 0.8) !important;
+}
+
+/* Container styling */
+.logo-text-container {
+  display: flex !important;
+  flex-direction: column !important; /* Stack items vertically */
+  align-items: flex-start !important; /* Align items to the left */
+
+  color: white !important;
+  position: relative;
+  margin-top: -140px;
+}
+
+/* Row styling for logo and MMM.VIP */
+.mmm-vip-row {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust space between logo and MMM.VIP */
+}
+/* Styling for MMM.VIP */
+.mmm-vip {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  white-space: nowrap;
+  -webkit-text-stroke: 2px #8fadff;
+  animation: textGlow 2s ease-in-out infinite alternate;
+}
+
+/* Styling for MY MUSIC MEDIA */
+.my-music-media {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  /* -webkit-text-stroke: 2px #8fadff; */
+  /* animation: textGlow 2s ease-in-out infinite alternate; */
+  margin-top: -70px;
+}
+
+/*video text size */
+.video-text-size {
+  font-size: 1rem !important;
+}
+
+/* Text glow animation */
+@keyframes textGlow {
+  from {
+    text-shadow: 0 0 15px rgba(173, 216, 230, 0.5),
+      0 0 25px rgba(173, 216, 230, 0.3), 0 0 35px rgba(173, 216, 230, 0.2);
+  }
+  to {
+    text-shadow: 0 0 30px rgba(173, 216, 230, 1),
+      0 0 40px rgba(173, 216, 230, 0.7), 0 0 50px rgba(173, 216, 230, 0.5);
+  }
+}
+
+/* Grid Layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2.5rem;
+  padding: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Card Container */
+.service-card {
+  background: linear-gradient(
+    to bottom right,
+    rgba(17, 24, 39, 0.95),
+    rgba(31, 41, 55, 0.95)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 1.25rem;
+  padding: 2.5rem 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(75, 85, 99, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover Effects */
+.service-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* Gradient Overlay */
+.service-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.1),
+    rgba(147, 51, 234, 0.1)
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.service-card:hover::after {
+  opacity: 1;
+}
+
+/* Icon Container */
+.service-icon {
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 1rem;
+  width: fit-content;
+  margin-inline: auto;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.service-icon img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  background: rgba(59, 130, 246, 0.2);
+  transform: scale(1.05);
+}
+
+.service-card:hover .service-icon img {
+  transform: scale(1.1);
+}
+
+/* Content Styling */
+.service-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service-text {
+  color: rgb(229, 231, 235);
+  font-size: 1.125rem;
+  line-height: 1.75;
+  text-align: center;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.service-card:hover .service-text {
+  color: rgb(243, 244, 246);
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Remove Bootstrap spacing class */
+.space30 {
+  display: none !important;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+.margin-top-packages {
+  margin-top: 10rem !important;
+}
+
+.text-packages {
+  font-size: 2rem !important;
+}
+
+.text-packages2 {
+  font-size: 1.5rem !important;
+}
+
+/*drop down */
+
+/* Dropdown title */
+.service-type-title {
+  color: white !important; /* Title color */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Dropdown container */
+.service-type-dropdown {
+  position: relative !important; /* Needed for absolute positioning of dropdown */
+}
+
+/* Dropdown list styling, hidden by default */
+.service-type-list {
+  display: none !important; /* Hide dropdown initially */
+  position: absolute !important; /* Position it below the title */
+  background-color: rgba(30, 30, 30, 0.9) !important; /* Dark background */
+  list-style: none !important; /* Remove bullet points */
+  padding: 0 !important;
+  margin: 0 !important;
+  z-index: 1000 !important; /* Ensure it appears above other elements */
+  max-height: 550px !important; /* Set a maximum height for scrolling */
+  overflow-y: auto !important; /* Enable vertical scrolling if needed */
+}
+
+/* Show dropdown on hover or click */
+.service-type-dropdown:hover .service-type-list,
+.service-type-dropdown:focus-within .service-type-list {
+  display: block !important; /* Show options */
+}
+
+/* Style for each dropdown option */
+.service-type-list li {
+  padding: 10px 15px !important; /* Add padding */
+  display: block !important; /* Stack items vertically */
+  color: white !important; /* Option text color */
+}
+
+/* Link styling */
+.service-type-list li a {
+  color: white !important; /* Option text color */
+  text-decoration: none !important; /* Remove underline */
+  display: block !important; /* Make the entire area clickable */
+}
+
+/* Hover effect for options */
+.service-type-list li a:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ) !important; /* Lighten background */
+  color: white !important;
+}
+
+/*maintain about top margin*/
+.all-top {
+  margin-top: 9rem !important;
+}
+
+/*prices */
+.pricing-wrapper {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
+  padding: 4rem 2rem !important;
+  min-height: 100vh !important;
+  display: flex !important;
+  align-items: stretch !important; /* Changed from center to stretch */
+  justify-content: center !important;
+  gap: 2rem !important;
+}
+
+.pricing-wrapper-vertical {
+  display: flex !important;
+  flex-direction: column !important;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
+  padding: 4rem 2rem !important;
+  min-height: 100vh !important;
+  justify-content: center !important;
+  align-items: center !important; /* Changed from center to stretch */
+
+  gap: 2rem !important;
+}
+
+.pricing-card {
+  background: rgba(30, 41, 59, 0.95) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(8px) !important;
+  transition: all 0.3s ease-in-out !important;
+  position: relative !important;
+  overflow: hidden !important;
+  padding: 2rem !important;
+  width: 320px !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  display: flex !important; /* Added */
+  flex-direction: column !important; /* Added */
+}
+
+.pricing-card-new {
+  background: rgba(30, 41, 59, 0.95) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(8px) !important;
+  transition: all 0.3s ease-in-out !important;
+  position: relative !important;
+  overflow: hidden !important;
+  padding: 2rem !important;
+  max-width: 620px !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  display: flex !important; /* Added */
+  flex-direction: column !important; /* Added */
+}
+
+.card-content {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 !important;
+  justify-content: space-between !important;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4) !important;
+}
+.pricing-card-new:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4) !important;
+}
+
+.elite-card {
+  background: linear-gradient(135deg, #1a1f2d 0%, #2d3748 100%) !important;
+  border: 1px solid rgba(255, 185, 0, 0.3) !important;
+}
+
+.elite-card::before {
+  content: "" !important;
+  position: absolute !important;
+  top: -50% !important;
+  left: -50% !important;
+  width: 200% !important;
+  height: 200% !important;
+  background: radial-gradient(
+    circle,
+    rgba(255, 185, 0, 0.15) 0%,
+    transparent 70%
+  ) !important;
+  animation: glowPulse 3s infinite !important;
+}
+
+.card-title {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  margin-bottom: 1rem !important;
+}
+.card-title-package {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  margin-bottom: 1rem !important;
+}
+
+.card-price {
+  font-size: 2rem !important;
+  font-weight: 800 !important;
+  color: #ffd700 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.price-period {
+  font-size: 0.9rem !important;
+  color: #94a3b8 !important;
+}
+
+.feature-list {
+  margin: 1.5rem 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  flex-grow: 1 !important; /* Added */
+  display: flex !important; /* Added */
+  flex-direction: column !important; /* Added */
+  gap: 0.75rem !important; /* Added for consistent spacing */
+}
+
+.feature-item {
+  padding: 0.5rem 0 !important;
+  color: #cbd5e1 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+.feature-item::before {
+  content: "✓" !important;
+  color: #ffd700 !important;
+  font-weight: bold !important;
+}
+
+@keyframes glowPulse {
+  0% {
+    opacity: 0.4 !important;
+  }
+  50% {
+    opacity: 0.8 !important;
+  }
+  100% {
+    opacity: 0.4 !important;
+  }
+}
+
+.radio-input {
+  position: absolute !important;
+  opacity: 0 !important;
+}
+
+.radio-input:checked + .card-content {
+  border-color: #ffd700 !important;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3) !important;
+}
+
+@media (max-width: 1024px) {
+  .pricing-wrapper,
+  .pricing-wrapper-vertical {
+    flex-direction: column !important;
+    padding: 2rem 1rem !important;
+    align-items: center !important;
+  }
+
+  .pricing-card {
+    width: 100% !important;
+    max-width: 320px !important;
+  }
+  .pricing-card-new {
+    width: 100% !important;
+    max-width: 320px !important;
+  }
+}
+
+/* left text */
+.left-text {
+  text-align: left !important;
+}
+
+.start-indent {
+  margin-left: 2rem !important;
+}
