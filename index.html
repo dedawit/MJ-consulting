@@ -817,67 +817,10 @@
     <div class="container mt-4">
       <div class="row justify-content-center">
         <div
+          id="home-packages-container"
           class="col-12 d-flex flex-wrap justify-content-center pricing-wrapper"
         >
-          <!-- Starter Suite -->
-          <div
-            class="col-12 col-md-4 pricing-card mb-3"
-            onclick="window.location.href = 'pricing.html'"
-          >
-            <div class="card-content">
-              <label class="card-title">STARTER SUITE</label>
-              <p class="card-price">
-                $299 <span class="price-period">monthly</span>
-              </p>
-              <ul class="feature-list">
-                <li class="feature-item">Business Formation Guidance</li>
-                <li class="feature-item">Basic CRM Setup</li>
-                <li class="feature-item">Social Media Audit</li>
-                <li class="feature-item">Foundational SEO</li>
-                <li class="feature-item">Monthly Strategy Call</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Growth Accelerator -->
-          <div
-            class="col-12 col-md-4 pricing-card elite-card mb-3"
-            onclick="window.location.href = 'pricing.html'"
-          >
-            <div class="card-content">
-              <label class="card-title">GROWTH ACCELERATOR</label>
-              <p class="card-price">
-                $799 <span class="price-period">monthly</span>
-              </p>
-              <ul class="feature-list">
-                <li class="feature-item">Full CRM & Pipeline Management</li>
-                <li class="feature-item">Advanced SEO & AIO</li>
-                <li class="feature-item">Lead Discovery & Generation</li>
-                <li class="feature-item">Social Media Management</li>
-                <li class="feature-item">Bi-Weekly Consulting</li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Enterprise Scaling -->
-          <div
-            class="col-12 col-md-4 pricing-card mb-3"
-            onclick="window.location.href = 'pricing.html'"
-          >
-            <div class="card-content">
-              <label class="card-title">ENTERPRISE SCALING</label>
-              <p class="card-price">
-                Custom <span class="price-period">Contact Us</span>
-              </p>
-              <ul class="feature-list">
-                <li class="feature-item">Fractional CMO/COO Services</li>
-                <li class="feature-item">Full Tech Stack Integration</li>
-                <li class="feature-item">Staffing & Leadership Training</li>
-                <li class="feature-item">Advanced AI Automation</li>
-                <li class="feature-item">Unlimited Priority Support</li>
-              </ul>
-            </div>
-          </div>
+          <!-- Packages will be loaded here via JS -->
         </div>
       </div>
     </div>
@@ -1733,5 +1676,14 @@
     <script src="assets/js/plugins/slick-slider.js"></script>
     <script src="assets/js/plugins/circle-progress.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <!-- Packages Rendering -->
+    <script src="assets/js/packages.js"></script>
+    <script>
+      $(document).ready(function() {
+        // Render top 3 featured packages
+        renderPackages('home-packages-container', false);
+      });
+    </script>
   </body>
 </html>

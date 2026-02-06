@@ -364,7 +364,9 @@ body,
   border-radius: 5px !important;
   font-weight: bold !important;
   text-decoration: none !important;
-  transition: background-color 0.3s ease, transform 0.3s ease !important; /* Smooth animation */
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease !important; /* Smooth animation */
 }
 
 .header-btn1 span i {
@@ -423,7 +425,9 @@ body,
   color: #fff;
   border: none;
   border-radius: 8px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   cursor: pointer;
   width: 100%; /* Full width on smaller screens */
   max-width: 300px; /* Fixed width to ensure a single row on larger screens */
@@ -553,12 +557,16 @@ body,
 /* Text glow animation */
 @keyframes textGlow {
   from {
-    text-shadow: 0 0 15px rgba(173, 216, 230, 0.5),
-      0 0 25px rgba(173, 216, 230, 0.3), 0 0 35px rgba(173, 216, 230, 0.2);
+    text-shadow:
+      0 0 15px rgba(173, 216, 230, 0.5),
+      0 0 25px rgba(173, 216, 230, 0.3),
+      0 0 35px rgba(173, 216, 230, 0.2);
   }
   to {
-    text-shadow: 0 0 30px rgba(173, 216, 230, 1),
-      0 0 40px rgba(173, 216, 230, 0.7), 0 0 50px rgba(173, 216, 230, 0.5);
+    text-shadow:
+      0 0 30px rgba(173, 216, 230, 1),
+      0 0 40px rgba(173, 216, 230, 0.7),
+      0 0 50px rgba(173, 216, 230, 0.5);
   }
 }
 
@@ -607,7 +615,8 @@ body,
 .service-card:hover {
   transform: translateY(-8px);
   border-color: rgba(59, 130, 246, 0.5);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
@@ -782,12 +791,13 @@ html {
 /*prices */
 .pricing-wrapper {
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%) !important;
-  padding: 4rem 2rem !important;
-  min-height: 100vh !important;
+  padding: 4rem 2rem !important; /* Increased padding */
+  min-height: auto !important;
   display: flex !important;
-  align-items: stretch !important; /* Changed from center to stretch */
+  flex-wrap: wrap !important; /* Ensure wrapping */
+  align-items: flex-start !important;
   justify-content: center !important;
-  gap: 2rem !important;
+  gap: 2.5rem !important; /* Increased gap substantially */
 }
 
 .pricing-wrapper-vertical {
@@ -797,24 +807,42 @@ html {
   padding: 4rem 2rem !important;
   min-height: 100vh !important;
   justify-content: center !important;
-  align-items: center !important; /* Changed from center to stretch */
+  align-items: center !important;
 
   gap: 2rem !important;
 }
 
 .pricing-card {
   background: rgba(30, 41, 59, 0.95) !important;
-  border-radius: 20px !important;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
   backdrop-filter: blur(8px) !important;
-  transition: all 0.3s ease-in-out !important;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease !important;
   position: relative !important;
   overflow: hidden !important;
-  padding: 2rem !important;
-  width: 320px !important;
+  padding: 1.5rem !important;
+  width: 100% !important;
+  max-width: 340px !important; /* Wider cards */
   border: 1px solid rgba(255, 255, 255, 0.1) !important;
-  display: flex !important; /* Added */
-  flex-direction: column !important; /* Added */
+  display: flex !important;
+  flex-direction: column !important;
+  animation: fadeInUp 0.6s ease-out backwards !important;
+  margin-bottom: 0 !important; /* Managed by column MB */
+  margin-left: auto !important; /* Center in column */
+  margin-right: auto !important; /* Center in column */
+}
+
+/* Add specific delay for animation based on child index if possible, or just general animation */
+.pricing-card:nth-child(1) {
+  animation-delay: 0.1s !important;
+}
+.pricing-card:nth-child(2) {
+  animation-delay: 0.2s !important;
+}
+.pricing-card:nth-child(3) {
+  animation-delay: 0.3s !important;
 }
 
 .pricing-card-new {
