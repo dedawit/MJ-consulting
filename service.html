@@ -1,105 +1,179 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>No Days Off</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title> No Days Off </title>
+    <!--=====FAB ICON=======-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo/preloader.png"
+      type="image/x-icon"
+    />
 
-  <!--=====FAB ICON=======-->
-  <link rel="shortcut icon" href="assets/img/logo/preloader.png" type="image/x-icon">
+    <!--===== CSS LINK =======-->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/plugins/mobile.css" />
+    <link rel="stylesheet" href="assets/css/plugins/owlcarousel.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/sidebar.css" />
+    <link rel="stylesheet" href="assets/css/plugins/slick-slider.css" />
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-  <!--===== CSS LINK =======-->
-  <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/plugins/fontawesome.css">
-  <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
-  <link rel="stylesheet" href="assets/css/plugins/mobile.css">
-  <link rel="stylesheet" href="assets/css/plugins/owlcarousel.min.css">
-  <link rel="stylesheet" href="assets/css/plugins/sidebar.css">
-  <link rel="stylesheet" href="assets/css/plugins/slick-slider.css">
-  <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=====  JS SCRIPT LINK =======-->
+    <script src="assets/js/plugins/jquery-3-6-0.min.js"></script>
+  </head>
 
-  <!--=====  JS SCRIPT LINK =======-->
-  <script src="assets/js/plugins/jquery-3-6-0.min.js"></script>
-</head>
-
-<body class="homepage1-body">
-
-  <!--===== PRELOADER STARTS =======-->
-  <div class="preloader">
-    <div class="loading-container">
-      <div class="loading"></div>
-      <div id="loading-icon"><img src="assets/img/logo/preloader.png" alt=""></div>
+  <body class="homepage1-body">
+    <!--===== PRELOADER STARTS =======-->
+    <div class="preloader">
+      <div class="loading-container">
+        <div class="loading"></div>
+        <div id="loading-icon">
+          <img src="assets/img/logo/preloader.png" alt="" />
+        </div>
+      </div>
     </div>
-  </div>
-  <!--===== PRELOADER ENDS =======-->
+    <!--===== PRELOADER ENDS =======-->
 
-  <!--===== PROGRESS STARTS=======-->
-  <div class="paginacontainer">
-    <div class="progress-wrap" style="color: #dfded8;">
-      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-      </svg>
+    <!--===== PROGRESS STARTS=======-->
+    <div class="paginacontainer">
+      <div class="progress-wrap" style="color: #dfded8">
+        <svg
+          class="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
+        >
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </div>
     </div>
-  </div>
-  <!--===== PROGRESS ENDS=======-->
+    <!--===== PROGRESS ENDS=======-->
 
-  <!--=====HEADER START=======-->
-  <header>
-    <!--===== HEADER START =======-->
+    <!--=====HEADER START=======-->
     <header>
-      <!-- Sticky Contact Info Section -->
-      <div class="header-top sticky-contact-info d-none d-lg-block">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="contact-info-mine">
-                <!-- Phone Number Action Button -->
-                <span>
-                  <i class="fa-solid fa-phone"></i>
-                  <a href="tel:+1(800) 830 0648">+1(800) 830 0648</a>
-                </span>
+      <!--===== HEADER START =======-->
+      <header>
+        <!-- Sticky Contact Info Section -->
+        <div class="header-top sticky-contact-info d-none d-lg-block">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="contact-info-mine">
+                  <!-- Phone Number Action Button -->
+                  <span>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+1(800) 830 0648">+1(800) 830 0648</a>
+                  </span>
 
-                <!-- Separator -->
-                <span class="separator">|</span>
+                  <!-- Separator -->
+                  <span class="separator">|</span>
 
-                <!-- Email Action Button -->
-                <span>
-                  <i class="fa-solid fa-envelope"></i>
-                  <a href="mailto:info@ndomedia.com">info@ndomedia.com</a>
-                </span>
+                  <!-- Email Action Button -->
+                  <span>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:info@ndomedia.com">info@ndomedia.com</a>
+                  </span>
 
-                <!-- Separator -->
-                <span class="separator">|</span>
+                  <!-- Separator -->
+                  <span class="separator">|</span>
 
-                <!-- Working Hours -->
-                <!-- <span>
+                  <!-- Working Hours -->
+                  <!-- <span>
               <i class="fa-solid fa-clock"></i> 
               Mon - Fri 9:00 AM - 05:00 PM
             </span> -->
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Existing Desktop Header -->
-      <div class="header-area homepage1 header header-sticky d-none d-lg-block" id="header">
+        <!-- Existing Desktop Header -->
+        <div
+          class="header-area homepage1 header header-sticky d-none d-lg-block"
+          id="header"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="header-elements">
+                  <div class="site-logo">
+                    <a href="index.html"
+                      ><img src="assets/img/logo/blm_logo.png" alt=""
+                    /></a>
+                  </div>
+                  <div class="main-menu">
+                    <ul>
+                      <!-- Home -->
+                      <li><a href="index.html">Home</a></li>
+
+                      <!-- About Us -->
+                      <li><a href="about.html">About Us</a></li>
+
+                      <!-- Services -->
+                      <li><a href="service.html">Services</a></li>
+
+                      <!-- Blogs -->
+                      <!-- <li><a href="blog.html">Blogs</a></li> -->
+                      <!-- Packages -->
+                      <li><a href="terms-of-service.html">Packages</a></li>
+
+                      <!-- Contact Us -->
+                      <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-area">
+                    <a href="contact.html" class="header-btn1"
+                      >Contact Us
+                      <span><i class="fa-solid fa-arrow-right"></i></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div
+        class="header-area homepage1 header header-sticky d-none d-lg-block"
+        id="header"
+      >
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
               <div class="header-elements">
                 <div class="site-logo">
-                  <a href="index.html"><img src="assets/img/logo/blm_logo.png" alt=""></a>
+                  <a href="index.html"
+                    ><img src="assets/img/logo/logo.png" alt=""
+                  /></a>
                 </div>
                 <div class="main-menu">
                   <ul>
                     <!-- Home -->
                     <li><a href="index.html">Home</a></li>
 
+                    <!-- Who We Serve: Custom Dropdown List -->
+                    <div class="service-type-dropdown">
+                      <span class="service-type-title">Who We Serve</span>
+                      <ul class="service-type-list">
+                        <li><a href="athlete.html"> Athletes </a></li>
+                        <li><a href="podcaster.html"> Podcasters</a></li>
+                        <li><a href="brand-owner.html"> Brand Owners</a></li>
+                        <li><a href="trainer.html"> Trainers Wellness</a></li>
+                        <li>
+                          <a href="online-business.html"> Online Business</a>
+                        </li>
+                      </ul>
+                    </div>
 
                     <!-- About Us -->
                     <li><a href="about.html">About Us</a></li>
@@ -109,17 +183,21 @@
 
                     <!-- Blogs -->
                     <!-- <li><a href="blog.html">Blogs</a></li> -->
+
                     <!-- Packages -->
                     <li><a href="terms-of-service.html">Packages</a></li>
-
-                    <!-- Contact Us -->
-                    <li><a href="contact.html">Contact Us</a></li>
                   </ul>
                 </div>
 
                 <div class="btn-area">
-                  <a href="contact.html" class="header-btn1">Contact Us <span><i
-                        class="fa-solid fa-arrow-right"></i></span></a>
+                  <a href="contact.html" class="header-btn1"
+                    >Contact Us
+                    <span><i class="fa-solid fa-arrow-right"></i></span
+                  ></a>
+                </div>
+
+                <div class="btn-area">
+                  <div class="header-contact">+1(800) 830 0648</div>
                 </div>
               </div>
             </div>
@@ -128,305 +206,820 @@
       </div>
     </header>
 
-    <div class="header-area homepage1 header header-sticky d-none d-lg-block" id="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="header-elements">
-              <div class="site-logo">
-                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-              </div>
-              <div class="main-menu">
-                <ul>
-                  <!-- Home -->
-                  <li><a href="index.html">Home</a></li>
+    <!--=====HEADER END =======-->
 
-                  <!-- Who We Serve: Custom Dropdown List -->
-                  <div class="service-type-dropdown">
-                    <span class="service-type-title">Who We Serve</span>
-                    <ul class="service-type-list">
-                      <li><a href="athlete.html"> Athletes </a></li>
-                      <li><a href="podcaster.html"> Podcasters</a></li>
-                      <li><a href="brand-owner.html"> Brand Owners</a></li>
-                      <li><a href="trainer.html"> Trainers Wellness</a></li>
-                      <li><a href="online-business.html"> Online Business</a></li>
-
-                    </ul>
-                  </div>
-
-                  <!-- About Us -->
-                  <li><a href="about.html">About Us</a></li>
-
-                  <!-- Services -->
-                  <li><a href="service.html">Services</a></li>
-
-                  <!-- Blogs -->
-                  <!-- <li><a href="blog.html">Blogs</a></li> -->
-
-                  <!-- Packages -->
-                  <li><a href="terms-of-service.html">Packages</a></li>
-
-                </ul>
-              </div>
-
-              <div class="btn-area">
-                <a href="contact.html" class="header-btn1">Contact Us <span><i
-                      class="fa-solid fa-arrow-right"></i></span></a>
-              </div>
-
-              <div class="btn-area">
-                <div class="header-contact">+1(800) 830 0648</div>
-              </div>
+    <!--===== MOBILE HEADER STARTS =======-->
+    <div class="mobile-header mobile-header1 d-block d-lg-none">
+      <div class="container-fluid">
+        <div class="col-12">
+          <div class="mobile-header-elements">
+            <div class="mobile-logo">
+              <a href="index.html"
+                ><img src="assets/img/logo/logo.png" alt=""
+              /></a>
+            </div>
+            <div class="mobile-nav-icon dots-menu">
+              <i class="fa-solid fa-bars"></i>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </header>
 
-  <!--=====HEADER END =======-->
-
-  <!--===== MOBILE HEADER STARTS =======-->
-  <div class="mobile-header mobile-header1 d-block d-lg-none">
-    <div class="container-fluid">
-      <div class="col-12">
-        <div class="mobile-header-elements">
-          <div class="mobile-logo">
-            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-          </div>
-          <div class="mobile-nav-icon dots-menu">
-            <i class="fa-solid fa-bars"></i>
-          </div>
+    <div class="mobile-sidebar mobile-sidebar1">
+      <div class="logosicon-area">
+        <div class="logos">
+          <img src="assets/img/logo/logo.png" alt="" />
+        </div>
+        <div class="menu-close">
+          <i class="fa-solid fa-xmark"></i>
         </div>
       </div>
-    </div>
-  </div>
+      <div class="mobile-nav mobile-nav1">
+        <ul class="mobile-nav-list nav-list1">
+          <!-- Home -->
+          <li><a href="index.html">Home</a></li>
 
-  <div class="mobile-sidebar mobile-sidebar1">
-    <div class="logosicon-area">
-      <div class="logos">
-        <img src="assets/img/logo/logo.png" alt="">
-      </div>
-      <div class="menu-close">
-        <i class="fa-solid fa-xmark"></i>
-      </div>
-    </div>
-    <div class="mobile-nav mobile-nav1">
-      <ul class="mobile-nav-list nav-list1">
-        <!-- Home -->
-        <li><a href="index.html">Home</a></li>
+          <!-- About Us -->
+          <li><a href="about.html">About Us</a></li>
 
-        <!-- About Us -->
-        <li><a href="about.html">About Us</a></li>
+          <!-- Services -->
+          <li><a href="service.html">Services</a></li>
 
-        <!-- Services -->
-        <li><a href="service.html">Services</a></li>
+          <!-- Blogs -->
+          <!-- <li><a href="blog.html">Blogs</a></li> -->
+          <!-- Packages -->
+          <li><a href="terms-of-service.html">Packages</a></li>
 
-        <!-- Blogs -->
-        <!-- <li><a href="blog.html">Blogs</a></li> -->
-        <!-- Packages -->
-        <li><a href="terms-of-service.html">Packages</a></li>
-        
-        <li><div class="mobile-service-type-dropdown">
-          <span class="mobile-service-type-title">Who We Serve</span>
-          <ul class="mobile-service-type-list">
-              <li><a href="athlete.html"> Athletes </a></li>
-              <li><a href="podcaster.html"> Podcasters</a></li>
-              <li><a href="brand-owner.html"> Brand Owners</a></li>
-              <li><a href="trainer.html"> Trainers Wellness</a></li>
-              <li><a href="online-business.html"> Online Business</a></li>
-          </ul>
-      </div></li>  
-
-      </ul>
-
-      <div class="allmobilesection">
-        <a href="contact.html" class="header-btn1">Contact Us<span><i class="fa-solid fa-arrow-right"></i></span></a>
-        <div class="single-footer">
-          <h3>Contact Info</h3>
-          <div class="footer1-contact-info">
-            <div class="contact-info-single">
-              <div class="contact-info-icon">
-                <i class="fa-solid fa-phone-volume"></i>
-              </div>
-              <div class="contact-info-text">
-                <a href="tel:+1(800) 830 0648">+1(800) 830 0648</a>
-              </div>
+          <li>
+            <div class="mobile-service-type-dropdown">
+              <span class="mobile-service-type-title">Who We Serve</span>
+              <ul class="mobile-service-type-list">
+                <li><a href="athlete.html"> Athletes </a></li>
+                <li><a href="podcaster.html"> Podcasters</a></li>
+                <li><a href="brand-owner.html"> Brand Owners</a></li>
+                <li><a href="trainer.html"> Trainers Wellness</a></li>
+                <li><a href="online-business.html"> Online Business</a></li>
+              </ul>
             </div>
+          </li>
+        </ul>
 
-            <div class="contact-info-single">
-              <div class="contact-info-icon">
-                <i class="fa-solid fa-envelope"></i>
+        <div class="allmobilesection">
+          <a href="contact.html" class="header-btn1"
+            >Contact Us<span><i class="fa-solid fa-arrow-right"></i></span
+          ></a>
+          <div class="single-footer">
+            <h3>Contact Info</h3>
+            <div class="footer1-contact-info">
+              <div class="contact-info-single">
+                <div class="contact-info-icon">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <div class="contact-info-text">
+                  <a href="tel:+1(800) 830 0648">+1(800) 830 0648</a>
+                </div>
               </div>
-              <div class="contact-info-text">
-                <a href="mailto:info@ndomedia.com">info@ndomedia.com</a>
-              </div>
-            </div>
-
-            <div class="single-footer">
-              <h3>We Are Located</h3>
 
               <div class="contact-info-single">
                 <div class="contact-info-icon">
-                  <i class="fa-solid fa-location-dot"></i>
+                  <i class="fa-solid fa-envelope"></i>
                 </div>
                 <div class="contact-info-text">
-                  <a href="mailto:info@ndomedia.com">100 SE 2nd Street, Suite 2000 #1010, <br> Miami, FL
-                    33131, USA</a>
+                  <a href="mailto:info@ndomedia.com">info@ndomedia.com</a>
                 </div>
               </div>
 
-            </div>
-            <div class="single-footer">
-              <h3>Social Links</h3>
+              <div class="single-footer">
+                <h3>We Are Located</h3>
 
-              <div class="social-links-mobile-menu">
-                <ul>
-                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                </ul>
+                <div class="contact-info-single">
+                  <div class="contact-info-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="contact-info-text">
+                    <a href="mailto:info@ndomedia.com"
+                      >100 SE 2nd Street, Suite 2000 #1010, <br />
+                      Miami, FL 33131, USA</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="single-footer">
+                <h3>Social Links</h3>
+
+                <div class="social-links-mobile-menu">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!--===== MOBILE HEADER ENDS =======-->
+    <!--===== MOBILE HEADER ENDS =======-->
 
+    <section
+      id="services"
+      class="service1-section-area sp9 all-top"
+      style="margin-top: -6%"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 m-auto">
+            <div class="service-header-area heading2 text-center">
+              <h2 class="text-anime-style-3" style="color: #dfded8">
+                Where Wellness Meets Influence
+                <br class="d-md-block d-none" style="margin-top: 40px" />
+                Marketing Sports & Lifestyle for Impact
+              </h2>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                style="color: #dfded8"
+              >
+                Our comprehensive services combine proven consulting expertise
+                with cutting-edge digital solutions to help your business
+                thrive.
+              </p>
+            </div>
+          </div>
+        </div>
 
+        <!-- Services Grid -->
+        <div class="services-grid" style="margin-top: 50px">
+          <!-- 1. Business Formation & Legal Setup -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-scale-balanced"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Business Formation & Legal Setup
+              </h3>
+              <p class="service-text">
+                Assistance in LLC setup, name selection, trademarks, compliance.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Inquire Now
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
 
+          <!-- 2. Business Growth & Scaling Strategies -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-chart-line"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Business Growth & Scaling
+              </h3>
+              <p class="service-text">
+                Customized plans to analyze operations, boost revenue,
+                streamline processes.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
 
-  <section id="services" class="service1-section-area sp9 all-top" style="margin-top: -6%;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 m-auto">
-          <div class="service-header-area heading2 text-center">
-            <h2 class="text-anime-style-3" style="color: #dfded8;"> Where Wellness Meets Influence <br
-                class="d-md-block d-none" style="margin-top: 40px;"> Marketing Sports & Lifestyle for Impact </h2>
-            <p data-aos="fade-up" data-aos-duration="1000" style="color: #dfded8;"> We understand that every talent is
-              unique. Our strategies are crafted <br class="d-md-block d-none"> to highlight your story, strengths, and
-              goals, ensuring your brand feels authentic. </p>
+          <!-- 3. Marketing & Branding Solutions -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-bullhorn"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Marketing & Branding
+              </h3>
+              <p class="service-text">
+                Digital campaigns, brand development, targeted strategies.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Inquire Now
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Financial Consulting -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-coins"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Financial Consulting
+              </h3>
+              <p class="service-text">
+                Budgeting, investment strategies, profitability maximization.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Technology Integration -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-laptop-code"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Technology Integration
+              </h3>
+              <p class="service-text">
+                CRM, e-commerce, automation tools for efficiency.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Inquire Now
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Leadership/Team Training -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-users-viewfinder"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Leadership & Training
+              </h3>
+              <p class="service-text">
+                Sessions on sales, customer service, leadership to enhance
+                performance.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Custom Website Development -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-code"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Custom Web Development
+              </h3>
+              <p class="service-text">
+                Mobile-optimized, responsive sites to showcase your business and
+                attract clients.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Inquire Now
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8. Lead Discovery & Client Management -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-address-book"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Lead Discovery
+              </h3>
+              <p class="service-text">
+                Find new clients, nurture relationships, qualification,
+                outreach.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9. Social Media Management -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-share-nodes"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Social Media Management
+              </h3>
+              <p class="service-text">
+                Build presence on platforms like Facebook, Instagram, TikTok,
+                LinkedIn, X.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Inquire Now
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10. SEO Optimization -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-magnifying-glass-chart"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                SEO Optimization
+              </h3>
+              <p class="service-text">
+                Rank higher in search engines, drive organic traffic, backlinks,
+                audits.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 11. Review Management -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-star"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Review Management
+              </h3>
+              <p class="service-text">
+                Monitor reviews on Google, Yelp, etc.; respond professionally;
+                outreach.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Inquire Now
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 12. Google My Business Optimization -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-store"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Google My Business
+              </h3>
+              <p class="service-text">
+                Profile setup, photo uploads, monthly posting, review
+                monitoring.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 13. Virtual Assistance -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-headset"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Virtual Assistance
+              </h3>
+              <p class="service-text">
+                Data entry, scheduling, billing, back-office tasks.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Inquire Now
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 14. CRM & Pipeline Management -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-timeline"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                CRM & Pipeline
+              </h3>
+              <p class="service-text">
+                Advanced CRM with automation, multi-channel communication,
+                invoicing.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 15. AIO/SEO Optimization -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-robot"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                AIO/SEO Optimization
+              </h3>
+              <p class="service-text">
+                AI-driven content, semantic research, programmatic SEO, E-E-A-T.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Inquire Now
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 16. Staffing Solutions -->
+          <div class="service-card" data-aos="zoom-in" data-aos-duration="800">
+            <div class="service-icon">
+              <i
+                class="fa-solid fa-people-group"
+                style="font-size: 3rem; color: #4fa3f7"
+              ></i>
+            </div>
+            <div class="service-content">
+              <h3
+                style="
+                  color: white;
+                  font-size: 1.25rem;
+                  font-weight: bold;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                "
+              >
+                Staffing Solutions
+              </h3>
+              <p class="service-text">
+                Flexible full/part-time staffing for startups, expansions, or
+                enterprises.
+              </p>
+              <div class="text-center mt-4">
+                <a href="contact.html" class="header-btn1"
+                  >Learn More
+                  <span><i class="fa-solid fa-arrow-right"></i></span
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="service-all-boxes-area">
-            <!-- Service Box 1 -->
-            <div class="service-boxarea glass-box" style="color: #dfded8;" data-aos="zoom-in" data-aos-duration="800">
-              <img src="assets/img/icons/affordable.jpg" alt="" class="service-icon">
-              <h5> Brand Development</h5>
-              <p> We collaborate with you to define your brand’s core values, vision, and mission. Through workshops and
-                discussions, we craft a distinctive brand identity that tells your story and sets you apart from the
-                competition. </p>
-            </div>
+    </section>
 
-            <!-- Service Box 2 -->
-            <div class="service-boxarea glass-box" style="color: #dfded8;" data-aos="zoom-in" data-aos-duration="1000">
-              <img src="assets/img/icons/fans.jpg" alt="" class="service-icon">
-              <h5> Content Creation </h5>
-              <p> We produce high-quality visual content that showcases your talents your audience. This includes
-                promotional videos and dynamic photography for social media.</p>
+    <!--===== FOOTER AREA STARTS =======--->
+    <div class="footer1-section-area" style="margin-top: -6%">
+      <div class="container">
+        <div
+          class="row"
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+          "
+        >
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-logo-area">
+              <img src="assets/img/logo/logo.png" alt="" />
+              <p style="color: #dfded8">
+                At NDO, We empower athletes, podcasters, actors, and creators by
+                building their brands, connecting them with their audience, and
+                showcasing their unique stories.
+              </p>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/icons/facebook.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/icons/instagram.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/icons/linkedin.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/icons/youtube.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
             </div>
-
-            <!-- Service Box 3 -->
-            <div class="service-boxarea glass-box" style="color: #dfded8;" data-aos="zoom-in" data-aos-duration="1200">
-              <img src="assets/img/icons/social-media.png" alt="social media icon" class="service-icon">
-              <h5> Social Media Management </h5>
-              <p> We analyze which social media platforms best suit your brand and audience demographics. Whether it’s
-                Instagram, TikTok, Twitter, or LinkedIn, we’ll create tailoredstrategies for each.</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="">
+              <h3 style="color: #dfded8; width: fit-content">
+                Subscribe to Our Newsletters
+              </h3>
+              <form action="#">
+                <input
+                  type="text"
+                  placeholder="Enter Your Email"
+                  style="
+                    font-family: var(--ztc-family-font1);
+                    font-size: var(--ztc-font-size-font-s16);
+                    width: 270px;
+                    line-height: var(--ztc-font-size-font-s16);
+                    font-weight: var(--ztc-weight-semibold);
+                    color: var(--ztc-text-text-2);
+                    padding: 10px;
+                    border: 0.7px solid #9999a0;
+                    border-radius: 0.375rem;
+                    margin-top: 24px;
+                  "
+                />
+              </form>
+              <button
+                style="
+                  background-color: #877dff;
+                  border-radius: 10px;
+                  color: black;
+                  width: 200px;
+                  padding-top: 0.5rem;
+                  padding-bottom: 0.5rem;
+                  padding-left: 0.75rem;
+                  padding-right: 0.75rem;
+                  font-size: 1.2rem;
+                  line-height: 1.5rem;
+                  margin-top: 40px;
+                  border: none;
+                "
+              >
+                Subscribe
+              </button>
             </div>
-
-            <!-- Service Box 4 -->
-            <div class="service-boxarea glass-box" style="color: #dfded8;" data-aos="zoom-in" data-aos-duration="1400">
-              <img src="assets/img/icons/email.jpg" alt="" class="service-icon">
-              <h5> Event Marketing </h5>
-              <p> We design marketing campaigns to promote your appearances, ensuring maximum exposure leading up to the
-                event. This includes social media teasers, press releases, and influencer partnerships.</p>
+          </div>
+        </div>
+        <div class="space80 d-lg-block d-none"></div>
+        <div class="space40 d-lg-none d-block"></div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="copyright-area">
+              <div class="pera">
+                <p style="color: #dfded8">
+                  ⓒCopyright 2024 No Days Off. All rights reserved.
+                </p>
+              </div>
+              <ul>
+                <li>
+                  <a href="terms-and-conditions.html" style="color: #dfded8"
+                    >Terms & Conditions</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="m-0" style="color: #dfded8"
+                    >Privacy Policy</a
+                  >
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+    <!--===== FOOTER AREA ENDS =======-->
 
-
-
-
-
-
-  <!--===== FOOTER AREA STARTS =======--->
-  <div class="footer1-section-area" style="margin-top: -6%;">
-    <div class="container">
-      <div class="row" style="display: flex; justify-content: space-between; align-items: start; ">
-        <div class="col-lg-3 col-md-6">
-          <div class="footer-logo-area">
-            <img src="assets/img/logo/logo.png" alt="">
-            <p style="color: #dfded8;"> At NDO, We empower athletes, podcasters, actors, and creators by building
-              their brands, connecting them with their audience, and showcasing their unique stories. </p>
-            <ul>
-              <li><a href="#"><img src="assets/img/icons/facebook.svg" alt=""></a></li>
-              <li><a href="#"><img src="assets/img/icons/instagram.svg" alt=""></a></li>
-              <li><a href="#"><img src="assets/img/icons/linkedin.svg" alt=""></a></li>
-              <li><a href="#"><img src="assets/img/icons/youtube.svg" alt=""></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="">
-            <h3 style="color: #dfded8; width: fit-content; ">Subscribe to Our Newsletters</h3>
-            <form action="#">
-              <input type="text" placeholder="Enter Your Email"
-                style="font-family: var(--ztc-family-font1); font-size: var(--ztc-font-size-font-s16); width: 270px; line-height: var(--ztc-font-size-font-s16); font-weight: var(--ztc-weight-semibold); color: var(--ztc-text-text-2); padding: 10px; border: 0.7px solid #9999a0; border-radius: 0.375rem; margin-top: 24px;">
-            </form>
-            <button
-              style="background-color: #877dff; border-radius: 10px; color: black; width: 200px; padding-top: 0.5rem; padding-bottom: 0.5rem; padding-left: 0.75rem; padding-right: 0.75rem; font-size: 1.2rem; line-height: 1.5rem; margin-top: 40px; border: none; ">
-              Subscribe </button>
-          </div>
-        </div>
-      </div>
-      <div class="space80 d-lg-block d-none"></div>
-      <div class="space40 d-lg-none d-block"></div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="copyright-area">
-            <div class="pera">
-              <p style="color: #dfded8;">ⓒCopyright 2024 No Days Off. All rights reserved.</p>
-            </div>
-            <ul>
-              <li><a href="terms-and-conditions.html" style="color: #dfded8;">Terms & Conditions</a></li>
-              <li><a href="#" class="m-0" style="color: #dfded8;">Privacy Policy</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--===== FOOTER AREA ENDS =======-->
-
-  <!--===== JS SCRIPT LINK =======-->
-  <script src="assets/js/plugins/bootstrap.min.js"></script>
-  <script src="assets/js/plugins/fontawesome.js"></script>
-  <script src="assets/js/plugins/aos.js"></script>
-  <script src="assets/js/plugins/counter.js"></script>
-  <script src="assets/js/plugins/gsap.min.js"></script>
-  <script src="assets/js/plugins/ScrollTrigger.min.js"></script>
-  <script src="assets/js/plugins/Splitetext.js"></script>
-  <script src="assets/js/plugins/sidebar.js"></script>
-  <script src="assets/js/plugins/magnific-popup.js"></script>
-  <script src="assets/js/plugins/mobilemenu.js"></script>
-  <script src="assets/js/plugins/owlcarousel.min.js"></script>
-  <script src="assets/js/plugins/gsap-animation.js"></script>
-  <script src="assets/js/plugins/nice-select.js"></script>
-  <script src="assets/js/plugins/waypoints.js"></script>
-  <script src="assets/js/plugins/slick-slider.js"></script>
-  <script src="assets/js/plugins/circle-progress.js"></script>
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!--===== JS SCRIPT LINK =======-->
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/fontawesome.js"></script>
+    <script src="assets/js/plugins/aos.js"></script>
+    <script src="assets/js/plugins/counter.js"></script>
+    <script src="assets/js/plugins/gsap.min.js"></script>
+    <script src="assets/js/plugins/ScrollTrigger.min.js"></script>
+    <script src="assets/js/plugins/Splitetext.js"></script>
+    <script src="assets/js/plugins/sidebar.js"></script>
+    <script src="assets/js/plugins/magnific-popup.js"></script>
+    <script src="assets/js/plugins/mobilemenu.js"></script>
+    <script src="assets/js/plugins/owlcarousel.min.js"></script>
+    <script src="assets/js/plugins/gsap-animation.js"></script>
+    <script src="assets/js/plugins/nice-select.js"></script>
+    <script src="assets/js/plugins/waypoints.js"></script>
+    <script src="assets/js/plugins/slick-slider.js"></script>
+    <script src="assets/js/plugins/circle-progress.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
