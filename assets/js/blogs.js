@@ -1,7 +1,3 @@
-/**
- * Blogs Data and Rendering Logic
- */
-
 const BLOGS_DATA = [
   {
     id: 1,
@@ -9,7 +5,8 @@ const BLOGS_DATA = [
     category: "Business Growth",
     date: "October 15, 2025",
     author: "MJ Cole",
-    image: "assets/img/all-images/blog-img1.png", // using existing placeholder
+    image:
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop",
     snippet:
       "Scaling a startup requires more than just capital. Discover the key strategies for sustainable growth, team expansions, and market penetration.",
     link: "#",
@@ -21,7 +18,8 @@ const BLOGS_DATA = [
     category: "Self-Confidence",
     date: "September 28, 2025",
     author: "MJ Cole",
-    image: "assets/img/all-images/blog-img2.png", // using existing placeholder
+    image:
+      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=800&auto=format&fit=crop",
     snippet:
       "Confidence is the cornerstone of effective leadership. Learn how to overcome imposter syndrome and lead with authority and empathy.",
     link: "#",
@@ -33,7 +31,8 @@ const BLOGS_DATA = [
     category: "Industry Trends",
     date: "November 2, 2025",
     author: "Admin",
-    image: "assets/img/all-images/blog-img3.png",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
     snippet:
       "Stay ahead of the curve with our analysis of the top emerging trends in digital marketing, AI adoption, and remote workforce management.",
     link: "#",
@@ -45,7 +44,8 @@ const BLOGS_DATA = [
     category: "SEO Optimization",
     date: "August 10, 2025",
     author: "Tech Team",
-    image: "assets/img/all-images/blog-img15.png",
+    image:
+      "https://images.unsplash.com/photo-1572021335469-31706a17aaef?q=80&w=800&auto=format&fit=crop",
     snippet:
       "Is your website performing at its peak? Learn why regular SEO audits are crucial for maintaining visibility and ranking high on search engines.",
     link: "#", // Could link to a PDF
@@ -57,7 +57,8 @@ const BLOGS_DATA = [
     category: "Business Skills",
     date: "July 22, 2025",
     author: "MJ Cole",
-    image: "assets/img/all-images/blog-img16.png",
+    image:
+      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=800&auto=format&fit=crop",
     snippet:
       "Negotiation is an art form. Whether it's with clients, employees, or partners, these tips will help you secure the best deals.",
     link: "#",
@@ -69,7 +70,8 @@ const BLOGS_DATA = [
     category: "Technology",
     date: "June 14, 2025",
     author: "Admin",
-    image: "assets/img/all-images/blog-img19.png",
+    image:
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     snippet:
       "Digital transformation isn't just for enterprises. See how small businesses can leverage tools to streamline operations and boost efficiency.",
     link: "#",
@@ -94,16 +96,16 @@ function createBlogCard(blog) {
           </div>
           <div class="blog-content p-4 d-flex flex-col justify-between" style="color: #dfded8;">
               <div>
-                  <div class="blog-meta mb-2" style="font-size: 0.85rem; color: #877dff;">
-                      <span class="me-3"><i class="fa-solid fa-layer-group"></i> ${blog.category}</span>
+                  <div class="blog-meta mb-3" style="font-size: 0.8rem; color: #877dff; display: flex; flex-wrap: wrap; gap: 15px;">
+                      <span><i class="fa-solid fa-layer-group"></i> ${blog.category}</span>
+                      <span><i class="fa-solid fa-user"></i> ${blog.author}</span>
                       <span><i class="fa-solid fa-calendar"></i> ${blog.date}</span>
                   </div>
-                  <h4 class="mb-3" style="font-weight: 700; color: white; line-height: 1.4;">${blog.title}</h4>
-                  <p class="mb-4" style="font-size: 0.95rem; color: #aaa;">${blog.snippet}</p>
+                  <a href="${blog.link}" style="text-decoration: none;">
+                    <h4 class="mb-3 blog-title" style="font-weight: 700; color: white; line-height: 1.4; transition: color 0.3s ease;">${blog.title}</h4>
+                  </a>
+                  <p class="mb-0" style="font-size: 0.95rem; color: #aaa;">${blog.snippet}</p>
               </div>
-              <a href="${blog.link}" class="read-more-btn" style="color: #877dff; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
-                  ${blog.isPdf ? "Download PDF" : "Read Full Story"} <i class="fa-solid fa-arrow-right"></i>
-              </a>
           </div>
       </div>
     </div>
@@ -137,6 +139,9 @@ style.innerHTML = `
   }
   .blog-card:hover .blog-img img {
       transform: scale(1.1);
+  }
+  .blog-card:hover .blog-title {
+      color: #877dff !important;
   }
 `;
 document.head.appendChild(style);
